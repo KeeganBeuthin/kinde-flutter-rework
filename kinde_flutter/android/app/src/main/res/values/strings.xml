@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">KindeFlutter</string>
+    <string name="asset_statements">
+        [{
+            "relation": ["delegate_permission/common.handle_all_urls"],
+            "target": {
+                "namespace": "android_app",
+                "package_name": "com.example.kindeflutter",
+                "sha256_cert_fingerprints": ["YOUR_APP_FINGERPRINT"]
+            }
+        }]
+    </string>
+</resources> 
